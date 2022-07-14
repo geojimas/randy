@@ -98,13 +98,12 @@ const onSuccess = () => {
 }
 
 const onError = () => {
-  notify(
-    {
-      group: 'notify',
-      title: 'Error',
-      text: "didn't copy :("
-    },
-    2000
-  )
+  notify({
+    title: 'Error',
+    text: `Didn't copy :( '`,
+    type: 'error',
+    duration: 2000,
+    speed: 500
+  })
 }
 </script>
