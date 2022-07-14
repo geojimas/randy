@@ -56,22 +56,18 @@ const refreshPassword = ref(false)
 const data = reactive([
   {
     id: 0,
-    name: 'abcd',
     chars: 'abcdefghjkmnopqrstuvwxyz'
   },
   {
     id: 1,
-    name: 'ABCD',
     chars: 'ABCDEFGHJKLMNOPQRSTUVWXYZ'
   },
   {
     id: 2,
-    name: '1234',
     chars: '0123456789'
   },
   {
     id: 3,
-    name: '@#$%',
     chars: '!$%&?+*#-/'
   }
 ])
